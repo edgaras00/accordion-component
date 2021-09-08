@@ -1,0 +1,34 @@
+.accordion {
+    width: 76%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 0.5em;
+    
+}
+
+.title-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-container h3 {
+    text-transform: capitalize;
+    width: 70%;
+    margin-top: 1.2em;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+
+}
+
+.item-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.accordion-item {
+    border: 2px solid #eae6eb;
+    border-radius: 0.45em;
+    width: 86%;
+    min-height: 3.2em;
+    box-shadow: 0 0.2em 0.4em rgb(88, 88, 88, 0.1);
+    margin-bottom: 2em;
+}
+
+.item-header {
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.8em;
+}
+
+.item-header h4 {
+    margin-left: 1em;
+    word-spacing: 0.18em;
+    
+}
+
+.item-header button {
+    margin-right: 1em;
+    border: none;
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(221, 143, 143);
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 1em;
+    margin-right: 0.8em;
+    margin-bottom: 0.8em;
+    color: #324d67;
+    line-height: 1.3;
+}
